@@ -1,7 +1,7 @@
 def isEven(n):
-    if n== 4:
-       return "True"
+    if n % 2 == 0:
+       return True
     else:
-       return "False"
+       return False
 
 print(isEven(4))
